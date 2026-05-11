@@ -1,5 +1,6 @@
 // Resolución de triangulos oblicangulos y rectangulos
 #include <iostream>
+#include <iomanip>
 #include <cmath>
 using namespace std;
 
@@ -20,5 +21,14 @@ long double _cos(long double A) { return cos(A * M_PI/180); } // coseno
 long double _tan(long double A) { return tan(A * M_PI/180); } // tangente
 
 int main() {
+    string azul = "\033[44m", resetColor = "\033[0m";
+
+    cout<< setprecision(5)
+        << azul << setw(4) << setiosflags(ios::left) << "A = " << setw(10) << setiosflags(ios::right) << A << "º" << "    " << setw(4) << "a = " << setw(10) << setiosflags(ios::left) << a << resetColor << endl
+        << azul << setw(4) << setiosflags(ios::left) << "B = " << setw(10) << setiosflags(ios::right) << B << "º" << "    " << setw(4) << "b = " << setw(10) << setiosflags(ios::left) << b << resetColor << endl
+        << azul << setw(4) << setiosflags(ios::left) << "C = " << setw(10) << setiosflags(ios::right) << C << "º" << "    " << setw(4) << "c = " << setw(10) << setiosflags(ios::left) << c << resetColor << endl
+        << resetiosflags(ios::left);
+
+
     return 0;
 }
