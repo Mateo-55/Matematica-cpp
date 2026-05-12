@@ -20,6 +20,14 @@ long double _sen(long double A) { return sin(A * M_PI/180); } // seno
 long double _cos(long double A) { return cos(A * M_PI/180); } // coseno
 long double _tan(long double A) { return tan(A * M_PI/180); } // tangente
 
+// Procesos para solucionar triangulos
+void resolverTriangulo();
+void casoLLA();
+void casoLAA();
+void casoLLL();
+
+
+
 int main() {
     string azul = "\033[44m", resetColor = "\033[0m";
 
@@ -29,7 +37,11 @@ int main() {
         << "\t" << azul << "------------ Resolver Triangulos ------------" << endl << resetColor
         << "\t" << azul << "---------------------------------------------" << endl << resetColor
         << endl ;
+    
+    cout << "Ingrese los datos (si el dato es desconocido ingrese 0)\n? ";
+    cin >> A >> B >> C >> a >> b >> c;
 
+    resolverTriangulo();
 
     // output final
     cout<< setprecision(5)
@@ -49,3 +61,9 @@ int main() {
 
     return 0;
 }
+
+void resolverTriangulo() {
+
+}
+
+// Desarrollado en su totalidad por Mateo B.
