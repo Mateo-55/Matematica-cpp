@@ -8,3 +8,9 @@ Es un archivo para resolver triangulos de una manera sencilla
    - En base a los datos proporcionados se resuelve el triangulo
      y muestra los datos con una presición de 5 decimales
    - Muestra las Razones de los angulos A, B y C
+
+#### Extras
+
+Este repositorio fue creado con el fin de familiarizarse con algunas herramientas de trabajo
+
+Desarrollado por Mateo B.
