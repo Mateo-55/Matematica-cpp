@@ -24,11 +24,10 @@ int main() {
     string azul = "\033[44m", resetColor = "\033[0m";
 
     // letrero
-    cout<< endl << azul
-        << "---------------------------------------------" << endl
-        << "------------ Resolver Triangulos ------------" << endl
-        << "---------------------------------------------" << endl
-
+    cout<< endl
+        << "\t" << azul << "---------------------------------------------" << endl << resetColor
+        << "\t" << azul << "------------ Resolver Triangulos ------------" << endl << resetColor
+        << "\t" << azul << "---------------------------------------------" << endl << resetColor
         << endl ;
 
 
@@ -40,13 +39,13 @@ int main() {
         << resetiosflags(ios::left) << endl;
 
     cout << "   Razones de A" << endl;
-    cout << "Seno:" << _sen(A) << "º \tCoseno:" << _cos(A) << "º\t Tangente: " << _tan(A) << endl << endl;
+    cout << "Seno: " << _sen(A) << "º \tCoseno: " << _cos(A) << "º\t Tangente: " << _tan(A) << endl << endl;
 
     cout << "   Razones de B" << endl;
-    cout << "Seno:" << _sen(B) << "º \tCoseno:" << _cos(B) << "º\t Tangente: " << _tan(B) << endl << endl;
+    cout << "Seno: " << _sen(B) << "º \tCoseno: " << _cos(B) << "º\t Tangente: " << _tan(B) << endl << endl;
     
     cout << "   Razones de C" << endl;
-    cout << "Seno:" << _sen(C) << "º \tCoseno:" << _cos(C) << "º\t Tangente: " << _tan(C) << endl << endl;
+    cout << "Seno: " << _sen(C) << "º \tCoseno: " << _cos(C) << "º\t Tangente: " << _tan(C) << endl << endl;
 
     return 0;
 }
