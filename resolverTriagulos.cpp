@@ -23,6 +23,16 @@ long double _tan(long double A) { return tan(A * M_PI/180); } // tangente
 int main() {
     string azul = "\033[44m", resetColor = "\033[0m";
 
+    // letrero
+    cout<< endl << azul
+        << "---------------------------------------------" << endl
+        << "------------ Resolver Triangulos ------------" << endl
+        << "---------------------------------------------" << endl
+
+        << endl ;
+
+
+    // output final
     cout<< setprecision(5)
         << azul << setw(4) << setiosflags(ios::left) << "A = " << setw(10) << setiosflags(ios::right) << A << "º" << "    " << setw(4) << "a = " << setw(10) << setiosflags(ios::left) << a << resetColor << endl
         << azul << setw(4) << setiosflags(ios::left) << "B = " << setw(10) << setiosflags(ios::right) << B << "º" << "    " << setw(4) << "b = " << setw(10) << setiosflags(ios::left) << b << resetColor << endl
