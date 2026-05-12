@@ -1,7 +1,7 @@
 # Matematica-cpp
 Un Repositorio con algunas aplicaciones practicas para resolver ejercicios matematicos en c++
 
-# resolverTriangulos.cpp
+## resolverTriangulos.cpp
 Es un archivo para resolver triangulos de una manera sencilla
     - Usa el sitema sexagesimal
     - Puede resolver rectangulos y oblicuangulos
