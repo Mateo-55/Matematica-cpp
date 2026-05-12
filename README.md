@@ -11,6 +11,6 @@ Es un archivo para resolver triangulos de una manera sencilla
 
 #### Extras
 
-Este repositorio fue creado con el fin de familiarizarse con algunas herramientas de trabajo
+Este repositorio fue creado con el fin de familiarizarse con algunas herramientas de trabajo.
 
 Desarrollado por Mateo B.
