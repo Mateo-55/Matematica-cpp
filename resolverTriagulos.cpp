@@ -27,8 +27,16 @@ int main() {
         << azul << setw(4) << setiosflags(ios::left) << "A = " << setw(10) << setiosflags(ios::right) << A << "º" << "    " << setw(4) << "a = " << setw(10) << setiosflags(ios::left) << a << resetColor << endl
         << azul << setw(4) << setiosflags(ios::left) << "B = " << setw(10) << setiosflags(ios::right) << B << "º" << "    " << setw(4) << "b = " << setw(10) << setiosflags(ios::left) << b << resetColor << endl
         << azul << setw(4) << setiosflags(ios::left) << "C = " << setw(10) << setiosflags(ios::right) << C << "º" << "    " << setw(4) << "c = " << setw(10) << setiosflags(ios::left) << c << resetColor << endl
-        << resetiosflags(ios::left);
+        << resetiosflags(ios::left) << endl;
 
+    cout << "   Razones de A" << endl;
+    cout << "Seno:" << _sen(A) << "º \tCoseno:" << _cos(A) << "º\t Tangente: " << _tan(A) << endl << endl;
+
+    cout << "   Razones de B" << endl;
+    cout << "Seno:" << _sen(B) << "º \tCoseno:" << _cos(B) << "º\t Tangente: " << _tan(B) << endl << endl;
+    
+    cout << "   Razones de C" << endl;
+    cout << "Seno:" << _sen(C) << "º \tCoseno:" << _cos(C) << "º\t Tangente: " << _tan(C) << endl << endl;
 
     return 0;
 }
