@@ -14,8 +14,8 @@ Es un archivo para calcular el producto punto de dos vectores
   - Recibe la longitud de los vectores
     * no recibe expreciones solo un número entero
   - Recibe dos vectores
-  - Aroja el prodicto punto de los vectores
-    * en caso de ser un numero decimal se muestra con 5 decimales de precision
+  - Aroja el producto punto de los vectores
+    * en caso de ser un numero decimal se muestra con 5 decimales de precisión
 
 #### Extras
 
