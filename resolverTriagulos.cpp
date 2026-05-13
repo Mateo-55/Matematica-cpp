@@ -35,9 +35,9 @@ int main() {
 
     // letrero
     cout<< endl
-        << "\t" << azul << "---------------------------------------------" << endl << resetColor
-        << "\t" << azul << "------------ Resolver Triangulos ------------" << endl << resetColor
-        << "\t" << azul << "---------------------------------------------" << endl << resetColor
+        << "\t" << azul << "=============================================" << endl << resetColor
+        << "\t" << azul << "============ Resolver Triangulos ============" << endl << resetColor
+        << "\t" << azul << "=============================================" << endl << resetColor
         << endl ;
     
     // input
