@@ -11,9 +11,9 @@ Es un archivo para resolver triangulos de una manera sencilla
 
 ## productoPuntoDeVectores.cpp
 Es un archivo para calcular el producto punto de dos vectores
-  - Recive la longitud de los vectores
-    * no recive expreciones solo un número entero
-  - Recive dos vectores
+  - Recibe la longitud de los vectores
+    * no recibe expreciones solo un número entero
+  - Recibe dos vectores
   - Aroja el prodicto punto de los vectores
     * en caso de ser un numero decimal se muestra con 5 decimales de precision
 
