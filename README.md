@@ -14,8 +14,14 @@ Es un archivo para calcular el producto punto de dos vectores
   - Recibe la longitud de los vectores
     * no recibe expreciones solo un número entero
   - Recibe dos vectores
-  - Aroja el producto punto de los vectores
-    * en caso de ser un numero decimal se muestra con 5 decimales de precisión
+  - Arroja el producto punto de los vectores
+    * en caso de ser un número real se muestra con 5 decimales de precisión
+
+## productoDeMatrices.cpp
+
+Es un archivo para calcular el producto de dos matrices
+  - Recibe las dimensiones de dos matrices y valida la multiplicación
+  - De ser entero un miembro de la matriz se mostrara sin decimal de lo contrario se mostrara con 5 decimales
 
 #### Extras
 
