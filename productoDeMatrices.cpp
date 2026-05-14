@@ -34,8 +34,16 @@ int main () {
         exit(1);
     }
     
-    
+    int n , m;
+    if ( y1 == x2 ) {
+        n = y2;
+        m = x1;
+    } else {
+        n = y1;
+        m = x2;
+    }
 
+    double matrizProducto[n][m];
     /*
         cuando tenemos dos matrizes
          ----------    ----------
@@ -54,6 +62,12 @@ int main () {
         Nota:
          cada elemento es el producto punto de dos vectorez
     */
+
+
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m; j++) { cout << matrizProducto[i][j] << ' '; }
+        cout << endl;
+    }
 
     return 0;
 }
