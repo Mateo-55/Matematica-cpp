@@ -33,7 +33,7 @@ int main () {
     bool bMulA = (x2 == y1);
 
     if (!aMulB && !bMulA) {
-        cerr << "No es posible realizar la multiplicación en ninguna." << endl;
+        cerr << "No es posible realizar la multiplicación." << endl;
         return 1;
     }
 
