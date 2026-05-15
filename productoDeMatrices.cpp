@@ -33,14 +33,34 @@ int main () {
         cerr << "No es posible realizar la multiplicación." << endl;
         exit(1);
     }
+
+    // input
+    vector<vector<int>> a(y1, vector<int>(x1));
+    vector<vector<int>> b(y2, vector<int>(x2));
+
+    cout << "\tIngrese la matriz 1" << endl;
+    for (int i = 0; i < y1; i++) {
+        for (int j = 0; j < x1; j++) {
+            cin >> a[i][j];  
+        }
+    }
     
-    int n , m;
-    if ( y1 == x2 ) {
+    cout << "\tIngrese la matriz 2" << endl;
+    for (int i = 0; i < y2; i++) {
+        for (int j = 0; j < x2; j++) {
+            cin >> b[i][j];  
+        }
+    }
+    
+    int n, m, o;
+    if ( y1 == x2 ) { // el eje comun es y1 x2
         n = y2;
         m = x1;
-    } else {
+        o = y1;
+    } else { // el eje comun es y2 x1
         n = y1;
         m = x2;
+        o = y2;
     }
 
     double matrizProducto[n][m];
@@ -63,6 +83,16 @@ int main () {
          cada elemento es el producto punto de dos vectorez
     */
 
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m; j++) {
+            vector<int> v1(o), v2(o);
+            for (int k = 0; k < o; k++) {    
+                v1[k] = a[i][k];
+                v2[k] = b[k][j];
+            }
+        }
+    }
+    
 
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < m; j++) { cout << matrizProducto[i][j] << ' '; }
