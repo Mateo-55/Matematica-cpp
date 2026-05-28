@@ -23,8 +23,16 @@ Es un archivo para calcular el producto de dos matrices
   - Recibe las dimensiones de dos matrices y valida la multiplicación
   - De ser entero un miembro de la matriz se mostrara sin decimal de lo contrario se mostrara con 5 decimales
 
+## estadisticaBasica.cpp
+Programa para cálculos estadísticos básicos.
+- calcula media, mediana, moda, varianza y desviación estándar de una lista de números.
+- Primero un entero `n` (cantidad de datos), seguido de `n` números (reales).
+- muestra cada estadístico con 5 decimales de precisión.
+
+## primos.h
+Archivo de cabecera con utilidades para números primos.
+ - esPrimo(int) recivve un numero y devuelve verdadero si es primo y falso si no lo es.
+ 
 #### Extras
-
 Este repositorio fue creado con el fin de familiarizarse con algunas herramientas de trabajo.
-
 Desarrollado por Mateo B.
