@@ -89,7 +89,7 @@ void med(vector<double> arr, const int tam, double &mediana) {
     
 }
 
-void mod(vector<double> arr, const int l, double &mediana) {
+void mod(vector<double> arr, const int l, double &moda) {
     double m[2] = {arr[0], 0};
     for (int i = 0; i < l; i++) {
         if (i==0) {
@@ -108,5 +108,5 @@ void mod(vector<double> arr, const int l, double &mediana) {
         }
     }
 
-    mediana = m[0];
+    moda = m[0];
 }
