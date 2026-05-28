@@ -7,7 +7,7 @@ Es un archivo para resolver triangulos de una manera sencilla
   - Puede resolver triangulos rectangulos y oblicuangulos
   - En base a los datos proporcionados se resuelve el triangulo
     y muestra los datos con una presición de 5 decimales
-  - Muestra las Razones de los angulos A, B y C
+  - Muestra las Razones de los angulos `A`, `B` y `C`
 
 ## productoPuntoDeVectores.cpp
 Es un archivo para calcular el producto punto de dos vectores
@@ -31,8 +31,8 @@ Programa para cálculos estadísticos básicos.
 
 ## primos.h
 Archivo de cabecera con utilidades para números primos.
- - esPrimo(int) recivve un numero y devuelve verdadero si es primo y falso si no lo es.
- 
+ - `esPrimo(int)` recivve un numero y devuelve verdadero si es primo y falso si no lo es.
+
 #### Extras
 Este repositorio fue creado con el fin de familiarizarse con algunas herramientas de trabajo.
 Desarrollado por Mateo B.
