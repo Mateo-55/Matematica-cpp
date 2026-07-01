@@ -33,6 +33,11 @@ Programa para cálculos estadísticos básicos.
 Archivo de cabecera con utilidades para números primos.
  - `esPrimo(int)` recivve un numero y devuelve verdadero si es primo y falso si no lo es.
 
+## graficaSeno.cpp
+Una grafica sencilla del seno
+  - Recive dos entero `x` e `y`
+  - Dibuja una grafica del seno de `y`x`x`
+
 #### Extras
 Este repositorio fue creado con el fin de familiarizarse con algunas herramientas de trabajo.
 Desarrollado por Mateo B.
