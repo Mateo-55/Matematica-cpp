@@ -35,9 +35,10 @@ Archivo de cabecera con utilidades para números primos.
 
 ## graficaSeno.cpp
 Una grafica sencilla del seno
-  - Recive dos entero `x` e `y`
-  - Dibuja una grafica del seno de `y`x`x`
+  - Recive tres enteros `x`, `y` y `relacion`
+  - Dibuja una grafica del seno de `y`x`x` donde cada unidad de longitud es igual al seno de la posicion por `relacion`.
 
 #### Extras
 Este repositorio fue creado con el fin de familiarizarse con algunas herramientas de trabajo.
+
 Desarrollado por Mateo B.
