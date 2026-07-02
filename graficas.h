@@ -44,11 +44,11 @@ public:
     // setters
     void setX(int x) { // set x
         this->x = x;
-        redimencionar(x, y);
+        redimensionar(x, y);
     }
     void setY(int y) { // set y
         this->y = y;
-        redimencionar(x, y);
+        redimensionar(x, y);
     }
     void setCentroX(int n) { // set centroX con un valor de referencia
         centroX = n;
@@ -63,7 +63,7 @@ public:
         centroY = y/2;
     }
 
-    void redimencionar(int x, int y) {
+    void redimensionar(int x, int y) {
         this->x = x;
         this->y = y;
         fondo.resize(y, std::vector<char>(x, ' '));
@@ -80,7 +80,7 @@ public:
         }
     }
 
-    void remplazar( grafica &g ) {
+    void reemplazar( grafica &g ) {
         this->x = g.x;
         this->y = g.y;
         this->centroX = g.centroX;
