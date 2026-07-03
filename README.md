@@ -1,6 +1,19 @@
 # Matematica-cpp
 Un Repositorio con algunas aplicaciones practicas para resolver ejercicios matematicos en c++
 
+## primos.h
+Archivo de cabecera con utilidades para números primos.
+ - `esPrimo(int)` recivve un numero y devuelve verdadero si es primo y falso si no lo es.
+
+## graficas.h
+Archivo de cabecera que contiene una clase `grfica`
+  - contiene cinco variables
+    * `x` tipo *int* se pasa como parametro al constructor
+    * `y` tipo *int* se pasa como parametro al constructor
+    * `centroX` tipo *int* su valor se calcula en el constructor pero se muede cambiar manualmente
+    * `centroY` tipo *int* su valor se calcula en el constructor pero se muede cambiar manualmente
+    * `fondo` tipo *vector<vector<char<char>>>* se inicializa en el constructor y es modificable
+
 ## resolverTriangulos.cpp
 Es un archivo para resolver triangulos de una manera sencilla
   - Usa el sitema sexagesimal
@@ -29,25 +42,18 @@ Programa para cálculos estadísticos básicos.
 - Primero un entero `n` (cantidad de datos), seguido de `n` números (reales).
 - muestra cada estadístico con 5 decimales de precisión.
 
-## primos.h
-Archivo de cabecera con utilidades para números primos.
- - `esPrimo(int)` recivve un numero y devuelve verdadero si es primo y falso si no lo es.
-
 ## graficaSeno.cpp
 Una grafica sencilla del seno
   - Recive tres enteros `x`, `y` y `relacion`
   - Dibuja una grafica del seno de `y`x`x` donde cada unidad de longitud es igual al seno de la posicion por `relacion`.
 
-## graficas.h
-Archivo de cabecera que contiene una clase `grfica`
-  - contiene cinco variables
-    * `x` tipo *int* se pasa como parametro al constructor
-    * `y` tipo *int* se pasa como parametro al constructor
-    * `centroX` tipo *int* su valor se calcula en el constructor pero se muede cambiar manualmente
-    * `centroY` tipo *int* su valor se calcula en el constructor pero se muede cambiar manualmente
-    * `fondo` tipo *vector<vector<char<char>>>* se inicializa en el constructor y es modificable
+## MCD.cpp
+Es un archivo para calcular el maximo común divisor de un vector de enteros
+  - Recive un entero `n` seguino de:
+  - Una lista `datos` de tamaño `n`
+  - Calcula el `MCD` usando el algoritmo de euclides
 
 #### Extras
-Este repositorio fue creado con el fin de familiarizarse con algunas herramientas de trabajo.
+Este repositorio fue creado con el fin de familiarizarse con algunas herramientas de trabajo, no todos los proyectos son perfectos y algunos pueden tener errores y malas precticas, se hace lo posible por darles mantenimiento y añadir contenido.
 
 Desarrollado por Mateo B.
