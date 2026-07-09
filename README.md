@@ -54,6 +54,6 @@ Es un archivo para calcular el maximo común divisor de un vector de enteros
   - Calcula el `MCD` usando el algoritmo de euclides
 
 #### Extras
-Este repositorio fue creado con el fin de familiarizarse con algunas herramientas de trabajo, no todos los proyectos son perfectos y algunos pueden tener errores y malas precticas, se hace lo posible por darles mantenimiento y añadir contenido.
+Este repositorio fue creado con el fin de familiarizarse con algunas herramientas de trabajo, no todos los proyectos son perfectos, algunos pueden tener errores y malas precticas, se hace lo posible por darles mantenimiento y añadir contenido, tener tambien en cuenta que no fue desarrollado de manera lineal.
 
 Desarrollado por Mateo B.
