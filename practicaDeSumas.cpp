@@ -1,7 +1,7 @@
 #include <iostream>
 #include <thread>
 #include <ctime>
-#define null NULL
+#define null NULL // no me gusta escribir null con mayusculas
 using namespace std;
 
 int main() {
